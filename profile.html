@@ -1,16 +1,184 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sachin Srivastava | DevOps Engineer</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- AOS Animation -->
+  <link rel="stylesheet"
+    href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
 </head>
 <body>
-    <div class="container">
-        <h1>NAMASTE!</h1>
-        <h2>I'm Sachin</h2>
-        <h3>DevOps Engineer</h3></h3>
-        <p>Welcome to my profile! </p>
-        <a href="https://www.linkedin.com/in/sachin-srivastava-5033ab162/" target="_blank">LINKEDIN</a>
-        </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left" data-aos="fade-right">
+
+      <h1>Sachin Srivastava</h1>
+
+      <h2>
+        <span id="typing"></span>
+      </h2>
+
+      <p>
+        6+ years of experience in DevOps, Cloud Infrastructure,
+        Kubernetes, CI/CD Automation, and AWS ecosystem.
+      </p>
+
+      <div class="hero-buttons">
+
+        <a href="assets/resume.pdf" download class="btn">
+          Download Resume
+        </a>
+
+        <a href="https://linkedin.com" target="_blank" class="btn-outline">
+          LinkedIn
+        </a>
+
+      </div>
+    </div>
+
+    <div class="hero-right" data-aos="fade-left">
+      <img src="assets/profile.jpg" alt="profile"/>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" data-aos="fade-up">
+    <h2>About Me</h2>
+
+    <p>
+      As a DevOps Engineer specializing in AWS Cloud,
+      I bring extensive hands-on experience in automation,
+      Infrastructure as Code, and CI/CD pipeline optimization.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" data-aos="zoom-in">
+
+    <h2>Technical Arsenal</h2>
+
+    <div class="skills-grid">
+
+      <div class="card">AWS</div>
+      <div class="card">Kubernetes</div>
+      <div class="card">Docker</div>
+      <div class="card">Terraform</div>
+      <div class="card">Jenkins</div>
+      <div class="card">Python</div>
+      <div class="card">Splunk</div>
+      <div class="card">AppDynamics</div>
+      <div class="card">CloudFormation</div>
+      <div class="card">Ansible</div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section">
+
+    <h2 data-aos="fade-up">Experience</h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item" data-aos="fade-right">
+        <h3>NAB India</h3>
+        <p>Senior DevOps Engineer | 4 Years</p>
+
+        <ul>
+          <li>Managed EKS & ECS workloads</li>
+          <li>Implemented monitoring with Splunk</li>
+          <li>Automated CI/CD pipelines</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item" data-aos="fade-left">
+        <h3>HCL Technologies</h3>
+        <p>DevOps Engineer | 2 Years</p>
+
+        <ul>
+          <li>Infrastructure automation</li>
+          <li>Terraform & CloudFormation</li>
+          <li>Production deployments</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section" data-aos="fade-up">
+
+    <h2>Certifications</h2>
+
+    <div class="cert-grid">
+
+      <div class="card">
+        AWS Certified Developer Associate
+      </div>
+
+      <div class="card">
+        AZ-400 Microsoft DevOps Solutions
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section" data-aos="fade-up">
+
+    <h2>Education</h2>
+
+    <div class="card">
+      <h3>B.Tech Computer Science</h3>
+
+      <p>
+        NITRA Technical Campus, Ghaziabad
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" data-aos="zoom-in">
+
+    <h2>Let's Connect</h2>
+
+    <div class="contact">
+
+      <p>
+        <i class="fa-solid fa-phone"></i>
+        9458633197
+      </p>
+
+      <p>
+        <i class="fa-solid fa-envelope"></i>
+        srisachin093@gmail.com
+      </p>
+
+      <p>
+        <i class="fa-brands fa-linkedin"></i>
+        LinkedIn Profile
+      </p>
+
+    </div>
+  </section>
+
+  <!-- JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
