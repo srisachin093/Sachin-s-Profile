@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 20px;
+    text-align: center;
+}
+h1, h2, h3 {
+    margin: 0 0 10px 0;
+}
+a {
+    color: #00स्तों; /* Example color, change as desired */
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+a:hover {
+    text-decoration: underline;
+}
+/* Add more styles to customize the layout, colors, and fonts */
